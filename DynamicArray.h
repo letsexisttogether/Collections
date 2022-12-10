@@ -1,7 +1,7 @@
 #ifndef DYNAMIC_ARRAY
 #define DYNAMIC_ARRAY
 
-#include <iostream>
+#include <memory>
 
 template <class _DAType, const size_t _reservedSize = 25ull>
 class DynamicArray
